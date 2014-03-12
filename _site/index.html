@@ -44,27 +44,16 @@
   </head>
   <body>
 
-          <div class="home">
-      <header class="main-header">
-       <div class="github-fork-ribbon-wrapper right">
-        <div class="github-fork-ribbon">
-            <a href="https://github.com/aultac/oada-api-spec"><i class="fa fa-code-fork"></i> Fork us on GitHub</a>
-        </div>
-    </div>
-      
-    <div class="row">
-      <div class="intro small-12 small-centered medium-10 medium-centered large-8 large-centered columns panel radius">
-      <div class="home-nav"> 
-      
+          <div class="nav-wrap">
+	 
 
     <nav class="top-bar" data-topbar>
         <ul class="title-area">
-            <li class="name">
-            <!--<img class="logo" src="/img/oada-logo.svg">-->
-                <h1 class="ag-title"><a href="#">Open Ag Data Alliance</a></h1>
-            </li>
+           <li class="name">
+           <!--      <h1 class="ag-title"><a href="#">Open Ag Data Alliance</a></h1> -->
+            </li> 
 
-            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+            <li class="toggle-topbar menu-icon left"><a href="#">Menu</a></li>
         </ul>
 
         <section class="top-bar-section clearfix">
@@ -95,19 +84,49 @@
     </nav>
 
 
-       </div>
-      	<header class="brand-wrap clearfix"><div class="brand-logo"><img src="/img/oada-logo.svg"></div>
-      	<div class="brand-title"><h1 class="ag-title">Open Ag Data Alliance</h1></div>
-      	</header>
-      <div class="panel"> <div class="site-desc"><p>The Open Ag Data Alliance is an open source project designed to bring interoperability, security, and privacy to agricultural data.  The central guiding principle of OADA is that each farmer owns data generated or entered by the farmer, their employees, or by machines performing activities on their farm.  By enabling interoperability through secure, public API’s for transferring and using data, farmers will be free to choose cloud providers they trust while retaining control of who can use their data.</p>
+</div>
+      <header class="home-header clearfix">
+      <div class="brand-wrap">
+      <div class="brand-logo"><img src="/img/oada-logo.svg"></div>
+      <div class="brand-title"><h1 class="ag-title">Open Ag Data Alliance</h1></div>
+      </div>
+      </header>
+
+
+<div class="home">
+      <header class="main-header">
+       <div class="github-fork-ribbon-wrapper right">
+        <div class="github-fork-ribbon">
+            <a href="https://github.com/oada"><i class="fa fa-code-fork"></i> Fork us on GitHub</a>
+        </div>
+    </div>
       
-         
-<p>The OADA community is building a set of open API’s for securely using data with the cloud.  Anyone can use these API’s in their own cloud systems, and if they pass the same software tests as the open reference implementation, they will be considered technically compliant.  Community guidelines are also being developed outlining data privacy and use standards that will be used to define levels of OADA compliance.</p></div>
+    <div class="row">
+      <div class="intro small-12 small-centered medium-10 medium-centered large-8 large-centered columns panel radius">
+     
+        <div class="panel"> <div class="site-desc">
+            
+            <p>The Open Ag Data Alliance is an open project designed to bring interoperability, 
+              security, and privacy to agricultural data.  <p><strong>The central guiding principle of OADA is that 
+          each farmer owns data generated or entered by the farmer, their employees, or by machines performing 
+          activities on their farm.</strong>  </p><p>By enabling interoperability through secure, public API’s for transferring 
+          and using data, farmers will be free to choose cloud providers they trust while retaining control 
+          over who can use their data.  The OADA community is building a set of open API’s for securely using data with the cloud.  
+          Anyone can use these API’s in their own cloud systems, and if they pass the same software tests 
+          as the open reference implementation, they will be considered technically compliant.  Community 
+          guidelines are also being developed outlining data privacy and use standards that will be used 
+          to define levels of OADA compliance.</p></div>
 
-<p>Read the OADA principles <a href="/principles/">here</a></p>
+        <p align="left">Read the OADA principles <a href="/principles/">here</a>...</p>
+        
+        <hr color="#FFFFFF"/>
 
-<h3>GET INVOLVED<br><small>Read the <a href="https://github.com/oada/oada-wiki/wiki" target="_blank"><i class="fa fa-folder-open-o"></i> docs</a>, join the <a href="#"><i class="fa fa-envelope-o"></i> mailing list</a>, and <a href="https://github.com/aultac/oada-api-spec" target="_blank"><i class="fa fa-code-fork"></i> fork OADA</a> on Github. </small></h3>          
-	</div>
+          <h3>
+            GET INVOLVED<br><small>Read the <a href="https://github.com/oada/oada-wiki/wiki" target="_blank"><i class="fa fa-folder-open-o"></i> docs</a>, 
+            join the <a href="https://groups.google.com/forum/#!forum/oada-dev"><i class="fa fa-envelope-o"></i> mailing list</a>, and 
+            <a href="https://github.com/OADA/" target="_blank"><i class="fa fa-code-fork"></i> fork OADA</a> on Github. </small>
+          </h3>          
+        </div>
       </div>
     </div>
       </header>
@@ -129,31 +148,26 @@
     
     
     
+
           
           
 <footer class="main-foot">
 	<div class="foot-wrap">
       <h1 class="foot-brand ag-title">Open Ag Data Alliance
       </h1>
-      		<div class="social-foot">
-	      		<ul class="social">
-			<li><a href="https://github.com/OADA"><i class="fa fa-github"></i></a></li>
-      		<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-      		<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-      </ul>
-      		</div>
 	      <p class="copy">&copy; 2014 <span class="ag-title">Open Ag Data Alliance</span> <br> Created by <a href="http://ingredientsdesign.com" target="_blank">Ingredients Design</a>
       </p>
       <p>Proudly hosted by <img class="git-logo" src="/img/github-logo.svg"></p>
       </div>
       </footer>
       
-    <script src="/js/vendor/jquery.min.js"></script>
+ <script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>    
     <script src="/js/foundation.min.js"></script>
     <script src="/js/main.min.js"></script>
-    <script src="/js/init.js"></script>
 <script>
   $(document).foundation();
+  svgeezy.init("nocheck","png");
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
